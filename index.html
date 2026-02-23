@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vaishnavi Salunke | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Vaishnavi Salunke</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="themeToggle">🌙</button>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <h1 class="fade-in">Vaishnavi Salunke</h1>
+        <p class="typing"></p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn ripple">Explore My Projects</a>
+            <a href="https://github.com/vaishnavi0232007" class="btn ripple github-btn">GitHub</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+        <h2>About Me</h2>
+
+        <div class="about-container">
+            <p>
+                Hello! I'm <strong>Vaishnavi Salunke</strong>, a passionate Computer Science student
+                with strong interest in programming and software development. I enjoy building
+                projects using C, C++, and Object-Oriented Programming concepts.
+            </p>
+
+            <p>
+                I have developed systems like Library Management, Tourist Guide System, and
+                Student Management System. These projects helped me understand real-world
+                problem solving and improve my coding skills.
+            </p>
+
+            <p>
+                My goal is to become a skilled software developer and create efficient,
+                user-friendly applications.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal">
+        <h2>Projects</h2>
+
+        <div class="card-container">
+
+            <!-- OOPs Card -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Library Management System</h3>
+                    <p>Secure Library Application</p>
+                </div>
+                <p>
+                    A Library Management System is a software application that manages book records, member details, and
+                    issue/return transactions.
+                    It simplifies tracking, reduces manual work, and ensures smooth library operations.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">C++</span>
+                    <span class="tech-tag">OOP</span>
+                    <span class="tech-tag">Exception Handling</span>
+                    <span class="tech-tag">Security</span>
+                </div>
+                <a href="https://github.com/vaishnavi0232007/OOPS-WITH-C-"><button class="ripple">View</button></a>
+            </div>
+
+            <!-- C Card -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Gym Management System</h3>
+                    <p>Secure Gym Application</p>
+                </div>
+                <p>
+                    A Gym Management System is a software application that manages member registrations, attendance, and
+                    subscription plans.
+                    It simplifies billing, tracks payments, and helps gym owners manage daily operations efficiently.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">C</span>
+                    <span class="tech-tag">Exception Handling</span>
+                    <span class="tech-tag">Security</span>
+                </div>
+                <a href="https://github.com/vaishnavi0232007/vaishnavi"><button class="ripple">View</button></a>
+            </div>
+
+            <!-- HTML Card -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Web Practicals</h3>
+                    <p>Applied Web Development</p>
+                </div>
+                <p>
+                    HTML and CSS build the foundation of clean, responsive, and visually engaging web interfaces.
+                    JavaScript and jQuery enhance user interaction, while JSON ensures smooth and structured data
+                    integration for modern web applications.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <a href="https://github.com/vaishnavi0232007/vaishnavi"><button class="ripple">View</button></a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- GITHUB -->
+    <section id="github" class="section reveal">
+        <h2>My GitHub</h2>
+        <div class="github-links">
+            <a href="https://github.com/vaishnavi0232007/OOPS-WITH-C-">📁 Repo 1</a>
+            <a href="https://github.com/vaishnavi0232007/vaishnavi">📁 Repo 2</a>
+            <a href="https://github.com/vaishnavi0232007/Web_Practicals">📁 Repo 3</a>
+        </div>
+    </section>
+    <!-- FAQ -->
+    <section id="faq" class="section reveal">
+        <h2>FAQ</h2>
+        <div id="faqContainer"></div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button class="ripple">Send</button>
+        </form>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="jquery.js"></script>
+</body>
+
+</html>

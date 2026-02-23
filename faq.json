@@ -1,0 +1,18 @@
+[
+    {
+        "question": "What languages do you know?",
+        "answer": "I know C, C++, HTML, CSS, and JavaScript."
+    },
+    {
+        "question": "What projects have you built?",
+        "answer": "I have built Library Management, Bank System, Portfolio Website, and Tourist Guide System."
+    },
+    {
+        "question": "Where can I see your projects?",
+        "answer": "You can see my projects in the Projects section and GitHub section."
+    },
+    {
+        "question": "What is your career goal?",
+        "answer": "My goal is to become a professional software developer."
+    }
+]
